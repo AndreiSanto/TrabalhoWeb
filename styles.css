@@ -1,7 +1,48 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {}
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    header #logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #menu ul {
+        max-width: 800px;
+        list-style: none;
+        padding: 0;
+        border-top: black solid;
+    }
+    
+    #menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #menu li {
+        display: inline;
+    }
+    
+    #menu li a {
+        color: black;
+        padding: 20px;
+        display: inline-block;
+        text-decoration: none;
+        transition: all .6s;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    #menu li a:hover {
+        background-color: rgb(24, 139, 233);
+        color: white;
+    }
+    /* sessão main*/
+    
+    main {
+        margin: 50px 100px 0px 100px;
+        background-color: burlywood;
+    }
