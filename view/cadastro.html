@@ -17,7 +17,7 @@
         <fieldset>
             <legend><strong>Dados Pessoais:</strong>
             </legend>
-            <form action="" method="get">
+            <form name="form1" action="" method="get">
                 <div class="campo">
                     <label for="Nome">Nome:</label>
                     <input type="text" name="Nome" id="Nome" required><br>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="campo">
                     <label for="Email">Email:</label>
-                    <input type="email" name="email" id="email"><br>
+                    <input type="email" name="Email" id="Email"><br>
                 </div>
 
         </fieldset>
@@ -41,18 +41,22 @@
             <div class="campo">
                 <label for="Rua:">Rua:</label>
                 <input type="text" name="Rua" id="Rua" required><br>
+                <div id="msg"></div>
             </div>
             <div class="campo">
                 <label for="Bairro">Bairro:</label>
                 <input type="text" name="Bairro" id="Bairro" required><br>
+                <div id="msg"></div>
             </div>
             <div class="campo">
                 <label for="Numero">Número:</label>
                 <input type="text" name="Numero" id="Numero" required><br>
+                <div id="msg"></div>
             </div>
             <div class="campo">
                 <label for="Cidade">Cidade:</label>
                 <input type="text" name="Cidade" id="Cidade" required><br>
+                <div id="msg"></div>
             </div>
         </fieldset>
         <fieldset>
@@ -60,6 +64,7 @@
             <div class="campo">
                 <label for="Valor">Valor:</label>
                 <input type="text" name="Valor " id="Valor" placeholder="R$" required><br>
+                <div id="msg"></div>
             </div>
         </fieldset>
         <input type="button" value="Cadastrar">

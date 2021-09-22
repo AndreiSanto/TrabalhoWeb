@@ -11,7 +11,7 @@
     }
     
     body {
-        background-color: burlywood;
+        background-color: white;
         background-position: center;
         background-size: cover;
         font-size: 1em;
@@ -50,15 +50,15 @@
         box-shadow: 2px 2px 2px;
         display: block;
     }
-    /*#caixa {
-    background-color: blue;
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-}
-*/
+    
+    #caixa {
+        background-color: transparent;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+    }
     
     fieldset .campo {
         float: left;
