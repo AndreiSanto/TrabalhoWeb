@@ -1,0 +1,67 @@
+    fieldset {
+        border: 0;
+    }
+    
+    #titulo {
+        width: 400px;
+        font-family: sans-serif;
+        color: #000000;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+    
+    body {
+        background-color: burlywood;
+        background-position: center;
+        background-size: cover;
+        font-size: 1em;
+        font-family: sans-serif;
+        margin-left: 36%;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    
+    input,
+    button {
+        border-radius: 6px;
+    }
+    
+    .campo {
+        margin-bottom: 1em;
+    }
+    
+    .campo label {
+        margin-bottom: 0.3em;
+        color: black;
+        display: block;
+    }
+    
+    legend {
+        margin-bottom: 0.3em;
+        color: black;
+        display: block;
+        font-size: 1em;
+        font-family: sans-serif;
+    }
+    
+    .campo input[type="email"],
+    .campo input[type="text"] {
+        padding: 0.2em;
+        box-shadow: 2px 2px 2px;
+        display: block;
+    }
+    /*#caixa {
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+*/
+    
+    fieldset .campo {
+        float: left;
+        margin-right: 0.25em;
+        margin-left: 0.30em;
+    }
