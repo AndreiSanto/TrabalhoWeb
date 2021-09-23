@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/cadastro.css" />
+    <script languagem="Javascript" src="../js/validacao.js"></script>
     <title>Cadastro</title>
 </head>
 
@@ -21,6 +22,7 @@
                 <div class="campo">
                     <label for="Nome">Nome:</label>
                     <input type="text" name="Nome" id="Nome" required><br>
+
                 </div>
                 <div class="campo">
                     <label for="Sobrenome">Sobrenome:</label>
@@ -43,6 +45,7 @@
                 <input type="text" name="Rua" id="Rua" required><br>
                 <div id="msg"></div>
             </div>
+            <div id="msg"></div>
             <div class="campo">
                 <label for="Bairro">Bairro:</label>
                 <input type="text" name="Bairro" id="Bairro" required><br>
@@ -67,7 +70,7 @@
                 <div id="msg"></div>
             </div>
         </fieldset>
-        <input type="button" value="Cadastrar">
+        <input type="button" value="Cadastrar" onclick="validarCampos()">
         </form>
     </div>
 </body>
