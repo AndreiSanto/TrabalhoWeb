@@ -157,6 +157,10 @@ header {
     animation: moveBanner 1s 0.9s forwards;
 }
 
+.banner button a {
+    color: white;
+}
+
 @keyframes moveBanner {
     0% {
         transform: translateY(10rem) rotateY(-30deg);
@@ -300,6 +304,10 @@ header {
     font-size: 2.5rem;
 }
 
+.qSomos-header i:hover {
+    color: red;
+}
+
 .qSomos-header h3 {
     font-family: var(--font-secundary);
     font-size: 2rem;
@@ -390,6 +398,10 @@ header {
     height: 2.5rem;
 }
 
+.card-info button a {
+    color: white;
+}
+
 .card:hover .card-info {
     bottom: 2rem;
     opacity: 1;
@@ -447,7 +459,7 @@ header {
 .field-doacao {
     border: none;
     border-bottom: 2px solid black;
-    border-radius: 5px ;
+    border-radius: 5px;
 }
 
 .field {
@@ -763,58 +775,48 @@ footer {
     }
 }
 
-@media screen and (min-width: 716px) and (max-width: 851px){
-    .quemSomos{
+@media screen and (min-width: 716px) and (max-width: 851px) {
+    .quemSomos {
         grid-template-columns: repeat(16, 1fr);
         grid-template-rows: repeat(11, 6rem);
         row-gap: 1.4rem;
     }
-
     .qSomos:nth-child(1) {
         grid-column: 3 / 7;
         grid-row: 1 / 4;
     }
-
     .qSomos:nth-child(2) {
         grid-column: 3 / 6;
         grid-row: 4 / 8;
     }
-
     .qSomos:nth-child(3) {
         grid-column: 3 / 7;
         grid-row: 8/ -1;
     }
-
     .qSomos:nth-child(4) {
         grid-column: 11 / 14;
         grid-row: 1 / 4;
     }
-
     .qSomos:nth-child(5) {
         grid-column: 11 / 15;
         grid-row: 4 / 8;
     }
-
     .qSomos:nth-child(6) {
         grid-column: 11 / 14;
         grid-row: 8 / -1;
     }
-
     .projetos {
         display: block;
     }
-
     .card {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
     .sessao-projetos {
         width: 100%;
         height: 100vh;
     }
-    
     .card {
         width: 300px;
         height: 400px;
@@ -825,58 +827,48 @@ footer {
     }
 }
 
-@media screen and (min-width: 852px) and (max-width: 1000px){
-    .quemSomos{
+@media screen and (min-width: 852px) and (max-width: 1000px) {
+    .quemSomos {
         grid-template-columns: repeat(16, 1fr);
         grid-template-rows: repeat(10, 6rem);
         row-gap: 1rem;
     }
-
     .qSomos:nth-child(1) {
         grid-column: 3 / 7;
         grid-row: 1 / 4;
     }
-
     .qSomos:nth-child(2) {
         grid-column: 3 / 6;
         grid-row: 4 / 7;
     }
-
     .qSomos:nth-child(3) {
         grid-column: 3 / 7;
         grid-row: 8/ -1;
     }
-
     .qSomos:nth-child(4) {
         grid-column: 11 / 14;
         grid-row: 1 / 4;
     }
-
     .qSomos:nth-child(5) {
         grid-column: 11 / 15;
         grid-row: 4 / 7;
     }
-
     .qSomos:nth-child(6) {
         grid-column: 11 / 14;
         grid-row: 8 / -1;
     }
-
     .projetos {
         display: block;
     }
-
     .card {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
     .sessao-projetos {
         width: 100%;
         height: 100vh;
     }
-
     .card {
         width: 300px;
         height: 400px;
@@ -887,38 +879,32 @@ footer {
     }
 }
 
-@media screen and (min-width: 1001px) and (max-width: 1268px){
-    .quemSomos{
+@media screen and (min-width: 1001px) and (max-width: 1268px) {
+    .quemSomos {
         grid-template-columns: repeat(16, 1fr);
         grid-template-rows: repeat(9, 6rem);
         row-gap: 0.9rem;
     }
-
     .qSomos:nth-child(1) {
         grid-column: 3 / 7;
         grid-row: 1 / 4;
     }
-
     .qSomos:nth-child(2) {
         grid-column: 3 / 6;
         grid-row: 4 / 7;
     }
-
     .qSomos:nth-child(3) {
         grid-column: 3 / 7;
         grid-row: 7/ -1;
     }
-
     .qSomos:nth-child(4) {
         grid-column: 11 / 14;
         grid-row: 1 / 4;
     }
-
     .qSomos:nth-child(5) {
         grid-column: 11 / 15;
         grid-row: 4 / 7;
     }
-
     .qSomos:nth-child(6) {
         grid-column: 11 / 14;
         grid-row: 7 / -1;
