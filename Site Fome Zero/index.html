@@ -188,13 +188,13 @@
             <section class="sessao-doacao" id="irDoacao">
                 <div class="doacao-wrapper">
                     <h1>Faça sua doação</h1>
-                    <form>
+                    <form name="form1">
                         <label for="nomeDoador">Nome do doador:</label>
                         <input class="field-doacao" type="text" id="nomeDoador">
                         <label for="emailDoador">Email:</label>
-                        <input class="field-doacao" type="email" id="emailDoador">
+                        <input class="field-doacao" type="emailDoador" id="emailDoador">
                         <label for="telefoneDoador">Telefone:</label>
-                        <input class="field-doacao" type="tel" id="telefoneDoador">
+                        <input class="field-doacao" type="text" id="telefoneDoador">
                         <label for="cpfDoador">CPF:</label>
                         <input class="field-doacao" type="text" id="cpfDoador">
 
@@ -213,7 +213,7 @@
                         <label id="valorDoacao" for="valDoacaoTela">R$ 0,00</label>
                         <input type="range" name="valDoacao" id="valDoacao" min="100" max="1000" onchange=" mostrarValorDoacao()">
 
-                        <button class="btn btn-doacao" type="submit">Enviar</button>
+                        <button class="btn btn-doacao" type="button" onclick="enviar()">Enviar</button>
                     </form>
                 </div>
             </section>
@@ -238,5 +238,7 @@
 </body>
 
 <script src="script.js"></script>
+<script languagem="Javascript" src="validacao.js"></script>
+
 
 </html>

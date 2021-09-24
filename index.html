@@ -1,64 +1,242 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="OS INCRIVEIS" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <title>Página inicial</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+
+
+    <title>Página Inicial</title>
 </head>
 
-
-
 <body>
-    <header>
-        <div id="logo"><img src="img/logo.png" alt=""></div>
-        <nav id="menu">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">QUEM SOMOS</a></li>
-                <li><a href="#">O QUE FAZEMOS</a></li>
-                <li><a href="#">CONTATO</a></li>
-                <li><a href="#">CONTATO</a></li>
-            </ul>
 
-        </nav>
-    </header>
+    <div class="container">
 
-    <main>
-        <section>
-            <article>
-                <header>
-                    <h2>O título do artigo é aqui</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, officia et tempora distinctio eligendi delectus laboriosam accusamus aspernatur. Nam vel, voluptatum accusamus quasi architecto cumque omnis asperiores voluptates optio
-                        nisi.
-                    </p>
-                </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </article>
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
 
-            <article>
-                <header>
-                    <h2>O título do artigo é aqui</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ab aperiam autem esse porro accusantium mollitia, asperiores enim? Nam vitae veritatis molestiae, ea in fugit temporibus iusto distinctio iste consectetur.</p>
-                </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </article>
-        </section>
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Fome Zero</h1>
+                <p>Em 2020, cerca de 155 milhões de pessoas enfrentaram níveis de crise de insegurança alimentar por conta de conflitos, eventos climáticos extremos e choques econômicos ligados em grande parte à Covid-19.</p>
 
-        <aside>
-            <h2>Entre em contato</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Saiba mais</button>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#QuemSomos" class="menu-link">Quem Somos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#irDoacao" class="menu-link">Doe</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
         </aside>
 
-        <footer>
-            <p>Linha do footer</p>
-        </footer>
-    </main>
+        <section class="sessao-quemSomos" id="QuemSomos">
+            <div class="sessao-header">
+                <h1>Quem Somos</h1>
+            </div>
+            <div class="quemSomos">
+                <div class="qSomos">
+                    <div class="qSomos-header">
+                        <i class="far fa-heart "></i>
+                        <h3>Ação da Cidadania</h3>
+                    </div>
+                    <div class="qSomos-text">
+                        <p>A Ação da Cidadania foi fundada em 1993 pelo sociólogo Herbert de Souza, conhecido como Betinho. Criada no auge do Movimento pela Ética na Política, ela se transformou em um dos movimentos sociais mais reconhecidos do Brasil. O
+                            projeto está presente em 19 estados do país e no Distrito Federal.
+                        </p>
+                    </div>
+                </div>
+                <div class="qSomos">
+                    <div class="qSomos-header">
+                        <i class="far fa-heart "></i>
+                        <h3>Amigos do Bem</h3>
+                    </div>
+                    <div class="qSomos-text">
+                        <p>A ONG Amigos do Bem surgiu em 1993 com a missão de transformar vidas por meio da educação e de projetos autossustentáveis, capazes de promover desenvolvimento e inclusão social, erradicando a fome e a miséria. Hoje, o projeto é
+                            um dos maiores do país e atende, regularmente, mais de 75 mil pessoas no sertão de Alagoas, de Pernambuco e do Ceará
+                        </p>
+                    </div>
+                </div>
+                <div class="qSomos">
+                    <div class="qSomos-header">
+                        <i class="far fa-heart "></i>
+                        <h3>Misturaí</h3>
+                    </div>
+                    <div class="qSomos-text">
+                        <p>O Instituto Misturaí é uma Organização da Sociedade Civil (OSC), sem fins lucrativos, com sede em Porto Alegre (RS). Começamos nossas ações em abril de 2018, com atividades pontuais. Nos institucionalizamos em 10 de abril de 2019,
+                            e construímos a nossa sede social na Vila Planetário, no mesmo ano.</p>
+                    </div>
+                </div>
+                <div class="qSomos">
+                    <div class="qSomos-header">
+                        <i class="far fa-heart "></i>
+                        <h3>Banco de Alimentos</h3>
+                    </div>
+                    <div class="qSomos-text">
+                        <p>A ONG Banco de Alimentos surgiu a partir de uma ideia da economista Luciana Chinaglia Quintão e se tornou uma associação civil que recolhe alimentos que já perderam valor de prateleira no comércio e indústria, mas ainda estão aptos
+                            para consumo, e os distribui onde são mais necessários.
+                        </p>
+                    </div>
+                </div>
+                <div class="qSomos">
+                    <div class="qSomos-header">
+                        <i class="far fa-heart "></i>
+                        <h3>Tem Gente com Fome </h3>
+                    </div>
+                    <div class="qSomos-text">
+                        <p>A campanha Tem Gente com Fome é uma iniciativa da Coalizão Negra Por Direitos, articulação que reúne 200 organizações, grupos e aliados do movimento negro brasileiro em todo território nacional, em parceria com diversas outras
+                            entidades. A ideia é mobilizar forças para arrecadar fundos para ações emergenciais de enfrentamento à fome, miséria e violência na pandemia de Covid-19.</p>
+                    </div>
+                </div>
+                <div class="qSomos">
+                    <div class="qSomos-header">
+                        <i class="far fa-heart "></i>
+                        <h3>G-10 Favelas</h3>
+                    </div>
+                    <div class="qSomos-text">
+                        <p>A proposta do G-10 Favelas é inspirar o Brasil inteiro a olhar para a favela, tornando as comunidades grandes polos de negócios, atrativo para investimentos, de forma a “transformar a exclusão em Startups e Empreendimentos de Impacto
+                            Social” de sucesso. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/natalSemFome.jpeg" alt="imagem do projeto ToDo" />
+                    </div>
+                    <div class="card-info">
+                        <h2>Natal sem fome</h2>
+
+                        <p>Uma das maiores mobilizações solidárias da sociedade civil, que ocorre desde 1994 e já ajudou mais de 20 milhões de pessoas por todo o Brasil a terem um Natal digno.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/doePandemia.png" alt="imagem do projeto Maratona" />
+                    </div>
+                    <div class="card-info">
+                        <h2>Doe na Pandemia</h2>
+                        <p>Metade do Brasil está em insegurança alimentar. Por isso, o Grupo Stenna se une à ONG Banco de Alimentos pelo combate à fome e ao desperdício de alimentos.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/amparai.jpeg" alt="imagem do projeto Casa Bela" />
+                    </div>
+                    <div class="card-info">
+                        <h2>Amparaí</h2>
+                        <p>O Amparaí foi criado em março de 2020 e se tornou o principal projeto da ONG Misturaí que tem sede no Rio Grande do Sul. Ele surgiu a partir do aumento da fome e agravamento da crise econômica e sanitária.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+
+            </section>
+
+            <section class="sessao-contato" id="contato">
+                <div class="contato-wrapper">
+                    <div class="contato-left"></div>
+                    <div class="contato-right">
+                        <h1>Contato</h1>
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="field" id="nome">
+                                <label for="nome" class="field-label">Nome</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="field" id="email">
+                                <label for="email" class="field-label">E-mail</label>
+                            </div>
+                            <div class="input-group">
+                                <textarea class="field" id="mensagem"></textarea>
+                                <label for="mensagem" class="field-label">Mensagem</label>
+                            </div>
+                            <button type="submit" class="btn btn-submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sessao-doacao" id="irDoacao">
+                <div class="doacao-wrapper">
+                    <h1>Faça sua doação</h1>
+                    <form name="form1">
+                        <label for="nome">Nome do doador:</label>
+                        <input class="field-doacao" type="text" id="nome">
+                        <label for="email">Email:</label>
+                        <input class="field-doacao" type="email" id="email">
+                        <label for="telefone">Telefone:</label>
+                        <input class="field-doacao" type="tel" id="telefone">
+                        <label for="cpf">CPF:</label>
+                        <input class="field-doacao" type="text" id="cpf">
+
+                        <label for="ongs">ONG:</label>
+                        <select class="field-doacao" name="selecaoOngs" id="ong">
+                            <option value="ong1"></option>
+                            <option value="ong2">Ação da Cidadania</option>
+                            <option value="ong3">Amigos do Bem</option>
+                            <option value="ong4">G-10 Favelas</option>
+                            <option value="ong5">Misturaí</option>
+                        </select>
+
+                        <div class="group-layout">
+                            <label for="layout-nao">Valor da doação:</label>
+                        </div>
+                        <label id="valorDoacao" for="valDoacaoTela">R$ 0,00</label>
+                        <input type="range" name="valDoacao" id="valDoacao" min="100" max="1000" onchange=" mostrarValorDoacao()">
+                        <input type="button" class="btn btn-doacao" value="Enviar" onclick="validarCampos()" id="BNT">
+                    </form>
+                </div>
+            </section>
+
+            <footer>
+                <div class=" footer-content ">
+                    <p>Desenvolvido por "G6 - Os Incríveis " <br><br> Fome Zero© 2021<br><br> Política de Privacidade
+                        <div class="social-list ">
+                            <ul>
+                                <li><a href=" "><i class="fab fa-facebook-f "></i></a></li>
+                                <li><a href=" "><i class="fab fa-instagram "></i></a></li>
+                                <li><a href=" "><i class="fab fa-twitter "></i></a></li>
+                            </ul>
+                        </div>
+                </div>
+            </footer>
+            <a href="#home " id="link-topo ">
+                <i class="fas fa-arrow-up "></i>
+            </a>
+        </div>
 </body>
+
+<script src="script.js "></script>
+<script languagem="Javascript" src="validacao.js"></script>
 
 </html>
