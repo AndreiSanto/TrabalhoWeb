@@ -29,7 +29,7 @@
                 <h1>Fome Zero</h1>
                 <p>Em 2020, cerca de 155 milhões de pessoas enfrentaram níveis de crise de insegurança alimentar por conta de conflitos, eventos climáticos extremos e choques econômicos ligados em grande parte à Covid-19.</p>
 
-                <button class="btn"><a href="https://viagemegastronomia.cnnbrasil.com.br/noticias/conheca-ongs-que-ajudam-no-combate-a-fome-no-brasil-e-saiba-como-colaborar/">Saiba mais</a></button>
+                <button type="button" class="btn"><a href="https://viagemegastronomia.cnnbrasil.com.br/noticias/conheca-ongs-que-ajudam-no-combate-a-fome-no-brasil-e-saiba-como-colaborar/">Saiba mais</a></button>
 
             </div>
         </header>
@@ -122,6 +122,7 @@
             </div>
         </section>
 
+        <section>
         <div class="sessao-projetos" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
@@ -159,8 +160,8 @@
                     </div>
                 </div>
             </div>
-
-            </section>
+            </div>
+            </section> 
 
             <section class="sessao-contato" id="contato">
                 <div class="contato-wrapper">
@@ -193,15 +194,15 @@
                         <label for="nomeDoador">Nome do doador:</label>
                         <input class="field-doacao" type="text" id="nomeDoador">
                         <label for="emailDoador">Email:</label>
-                        <input class="field-doacao" type="emailDoador" id="emailDoador">
+                        <input class="field-doacao" type="email" id="emailDoador">
                         <label for="telefoneDoador">Telefone:</label>
                         <input class="field-doacao" type="text" id="telefoneDoador">
                         <label for="cpfDoador">CPF:</label>
                         <input class="field-doacao" type="text" id="cpfDoador">
 
-                        <label for="ongs">ONG:</label>
+                        <label for="ong">ONG:</label>
                         <select class="field-doacao" name="selecaoOngs" id="ong">
-                            <option value="ong1"></option>
+                            <option value="ong1">-Selecione-</option>
                             <option value="ong2">Ação da Cidadania</option>
                             <option value="ong3">Amigos do Bem</option>
                             <option value="ong4">G-10 Favelas</option>
@@ -236,10 +237,9 @@
                 <i class="fas fa-arrow-up"></i>
             </a>
         </div>
+
+    <script src="script.js"></script>
+    <script src="validacao.js"></script>
 </body>
-
-<script src="script.js"></script>
-<script languagem="Javascript" src="validacao.js"></script>
-
 
 </html>
